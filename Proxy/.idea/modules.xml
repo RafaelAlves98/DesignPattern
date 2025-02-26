@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Facade.iml" filepath="$PROJECT_DIR$/Facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy.iml" filepath="$PROJECT_DIR$/Proxy.iml" />
     </modules>
   </component>
 </project>
