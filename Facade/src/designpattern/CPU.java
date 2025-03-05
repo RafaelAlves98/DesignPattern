@@ -1,6 +1,6 @@
 package designpattern;
 
-// Classe que representa a CPU do computador.
+// Classe que representa a CPU do computador
 class CPU {
     // Método que simula o congelamento da CPU.
     public void freeze() {
