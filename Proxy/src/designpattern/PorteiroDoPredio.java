@@ -1,15 +1,4 @@
-// Interface comum
-interface Porteiro {
-    void autorizarEntrada();
-}
-
-// Moradora (objeto real)
-class Moradora implements Porteiro {
-    @Override
-    public void autorizarEntrada() {
-        System.out.println("Entrada autorizada pela Moradora.");
-    }
-}
+package designpattern;
 
 // Porteiro (intermediário)
 class PorteiroDoPredio implements Porteiro {
@@ -27,10 +16,3 @@ class PorteiroDoPredio implements Porteiro {
     }
 }
 
-// Visitante (usuário)
-public class Visitante {
-    public static void main(String[] args) {
-        Porteiro porteiro = new PorteiroDoPredio();
-        porteiro.autorizarEntrada(); // O visitante solicita entrada ao Porteiro
-    }
-}
